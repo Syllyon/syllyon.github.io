@@ -1,0 +1,41 @@
+# Dependencies
+/node_modules
+/npm-debug.log*
+/yarn-debug.log*
+/yarn-error.log*
+/package-lock.json # If you use yarn.lock and want to avoid conflicts
+/yarn.lock # If you use package-lock.json and want to avoid conflicts
+
+# Build artifacts
+/build
+/dist
+/.tmp
+/.next # If using Next.js
+
+# Testing
+/coverage
+
+# Production
+/build
+
+# Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env # If you store sensitive keys here (though it's better to use specific .env files)
+
+# Editor and IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.DS_Store
+
+# Miscellaneous
+.npm
+*.log
+.eslintcache
+
+# GitHub Pages deployment files (if you use gh-pages)
+.publish
